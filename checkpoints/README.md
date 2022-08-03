@@ -10,14 +10,14 @@ Method | checkpoint
 ----------- | ----------- 
 ASR | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/asr/w2v2_base_fine-tune.pt)
 E2E NER | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/e2e_ner/w2v2_base_fine-tune.pt)
-text NER | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/text_ner/deberta-base_raw_fine-tune.pt)
+text NER | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/text_ner/deberta-base_raw_fine-tune.zip)
 
 ### Improved pipeline
 These are trained on 100 hours of external  data.
 External data type      | Method | checkpoint
 ----------- | ----------- | ----------- 
-Un-Sp | SelfTrain-ASR | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/asr/w2v2_base-train_100h_plabeled_asr.pt)
-Un-Txt | SelfTrain-txtNer | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/text_ner/deberta-base_raw_train_100h_plabeled_text_ner.pt)
+Un-Sp | SelfTrain-ASR | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/asr/w2v2_base_train_100h_plabeled_asr.pt)
+Un-Txt | SelfTrain-txtNer | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/text_ner/deberta-base_raw_train_100h_plabeled_text_ner.zip)
 Sp-Txt | Pre-ASR | [Link](https://public-dataset-model-store.awsdev.asapp.com/fwu/spoken-ner/public/asr/w2v2_base_train_100h.pt)
 
 ### Improved E2E NER
